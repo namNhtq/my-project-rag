@@ -3,7 +3,7 @@
 ## Giới thiệu
 Đề tài này là một bài thực hành trong môn học của tôi nhằm hiểu được RAG là gì? Xây dựng hệ thống, cấu trúc trong RAG ra sao. Tuy nhiên, đây là chỉ là một phần của Project cuối kỳ cho môn học này nên tôi sẽ update các cải thiện dần theo thời gian.
 
-Đề tài này xây dựng một hệ thống chatbot dựa trên mô hình **Retrieval-Augmented Generation (RAG)**. Chatbot có khả năng tìm kiếm và tổng hợp thông tin từ tập dữ liệu có sẵn, sau đó tạo ra câu trả lời thông minh và chính xác.
+- Đề tài này xây dựng một hệ thống chatbot dựa trên mô hình **Retrieval-Augmented Generation (RAG)**. Chatbot có khả năng tìm kiếm và tổng hợp thông tin từ tập dữ liệu có sẵn, sau đó tạo ra câu trả lời thông minh và chính xác.
 
 - Lưu ý: Hiện chatbot này đang đọc được dữ liệu từ file PDF nhưng là PDF thuần chữ, PDF dạng bảng. Ở đây tôi sử dụng data từ file PDF về môn Tư tưởng Hồ Chí Minh và file PDF dạng bảng trong tài chính.
 
