@@ -5,7 +5,7 @@
 
 Đề tài này xây dựng một hệ thống chatbot dựa trên mô hình **Retrieval-Augmented Generation (RAG)**. Chatbot có khả năng tìm kiếm và tổng hợp thông tin từ tập dữ liệu có sẵn, sau đó tạo ra câu trả lời thông minh và chính xác.
 
-Lưu ý: Hiện chatbot này đang đọc được dữ liệu từ file PDF nhưng là PDF thuần chữ, PDF dạng bảng. 
+- Lưu ý: Hiện chatbot này đang đọc được dữ liệu từ file PDF nhưng là PDF thuần chữ, PDF dạng bảng. Ở đây tôi sử dụng data từ file PDF về môn Tư tưởng Hồ Chí Minh và file PDF dạng bảng trong tài chính.
 
 Hệ thống bao gồm các thành phần chính:
 - **Backend**: Xử lý dữ liệu, truy vấn và tích hợp với mô hình AI.
@@ -55,11 +55,11 @@ Khởi chạy toàn bộ hệ thống bằng Docker:
 docker-compose up --build
 ```
 
-## Sử dụng chatbot
+## 4. Sử dụng chatbot
 - Truy cập giao diện web tại `localhost:8501`
 - Nhập câu hỏi vào chatbot và nhận câu trả lời từ hệ thống.
-
 ---
 
+(...)
 
 
