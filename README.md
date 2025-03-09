@@ -1,7 +1,11 @@
 # RAG 
 
 ## Giới thiệu
-Đề tài nhằm xây dựng một hệ thống chatbot dựa trên mô hình **Retrieval-Augmented Generation (RAG)**. Chatbot có khả năng tìm kiếm và tổng hợp thông tin từ tập dữ liệu có sẵn, sau đó tạo ra câu trả lời thông minh và chính xác.
+Đề tài này là một bài thực hành trong môn học của tôi nhằm hiểu được RAG là gì? Xây dựng hệ thống, cấu trúc trong RAG ra sao. Tuy nhiên, đây là chỉ là một phần của Project cuối kỳ cho môn học này nên tôi sẽ update các cải thiện dần theo thời gian.
+
+Đề tài này xây dựng một hệ thống chatbot dựa trên mô hình **Retrieval-Augmented Generation (RAG)**. Chatbot có khả năng tìm kiếm và tổng hợp thông tin từ tập dữ liệu có sẵn, sau đó tạo ra câu trả lời thông minh và chính xác.
+
+Lưu ý: Hiện chatbot này đang đọc được dữ liệu từ file PDF nhưng là PDF thuần chữ, PDF dạng bảng. 
 
 Hệ thống bao gồm các thành phần chính:
 - **Backend**: Xử lý dữ liệu, truy vấn và tích hợp với mô hình AI.
@@ -34,7 +38,7 @@ Lab2_RAG/
 
 ## Cài đặt và chạy hệ thống
 ### 1. Yêu cầu hệ thống
-- Python 3.10+
+- Python 3.10
 - Docker & Docker Compose
 - Các thư viện trong `requirements.txt`
 
@@ -50,23 +54,6 @@ Khởi chạy toàn bộ hệ thống bằng Docker:
 ```sh
 docker-compose up --build
 ```
-
-### 4. Chạy hệ thống thủ công
-Nếu không dùng Docker, bạn có thể chạy từng phần riêng lẻ:
-#### a) Chạy Backend API
-```sh
-cd backend
-python main.py
-```
-#### b) Chạy Frontend
-```sh
-cd frontend
-python app.py
-```
-
-Hệ thống sẽ chạy trên `http://localhost:5000`.
-
----
 
 ## Sử dụng chatbot
 - Truy cập giao diện web tại `localhost:8501`
