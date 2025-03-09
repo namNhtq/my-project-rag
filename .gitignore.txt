@@ -1,0 +1,4 @@
+# Bỏ qua thư mục cache và file môi trường
+__pycache__/
+.env
+*.pyc
